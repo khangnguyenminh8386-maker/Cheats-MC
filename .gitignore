@@ -1,0 +1,10 @@
+.gradle/
+build/
+.idea/
+.vscode/
+*.iml
+run/
+.tools/
+docs/
+NIGHT_WORKING_RULES.md
+README-R3.md

@@ -1,0 +1,20 @@
+﻿{
+  "targets": {
+    "pattern": { "persistent": true }
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "night:program/neekeri_ui",
+      "inputs": [
+        { "sampler_name": "In", "target": "minecraft:main", "bilinear": true }
+      ],
+      "output": "pattern",
+      "uniforms": {
+        "NeekeriConfig": [
+          { "name": "Params", "type": "vec4", "value": [ 0.0, 0.0, 0.0, 0.0 ] }
+        ]
+      }
+    }
+  ]
+}

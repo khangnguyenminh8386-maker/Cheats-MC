@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "clickgui_bg_target": { "persistent": true }
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "night:program/clickgui_bg",
+      "inputs": [
+        { "sampler_name": "In", "target": "minecraft:main", "bilinear": true }
+      ],
+      "output": "clickgui_bg_target",
+      "uniforms": {
+        "ClickGuiBgConfig": [
+          { "name": "Params", "type": "vec4", "value": [ 0.0, 0.0, 0.0, 0.0 ] },
+          { "name": "ThemeColor", "type": "vec4", "value": [ 1.0, 1.0, 1.0, 1.0 ] }
+        ]
+      }
+    }
+  ]
+}

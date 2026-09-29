@@ -1,0 +1,118 @@
+{
+  "targets": {
+    "swap": {}
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "night:program/outline",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:main",
+          "bilinear": true
+        },
+        {
+          "sampler_name": "Image",
+          "location": "night:custom_image",
+          "width": 512,
+          "height": 512,
+          "bilinear": true
+        }
+      ],
+      "output": "swap",
+      "uniforms": {
+        "OutlineConfig": [
+          {
+            "name": "RenderMode",
+            "type": "int",
+            "value": 2
+          },
+          {
+            "name": "FillOpacity",
+            "type": "float",
+            "value": 1.0
+          }
+        ],
+        "EspSettings": [
+          {
+            "name": "Rgb0",
+            "type": "vec4",
+            "value": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Rgb1",
+            "type": "vec4",
+            "value": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Rgb2",
+            "type": "vec4",
+            "value": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Rgb3",
+            "type": "vec4",
+            "value": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "EspParams",
+            "type": "vec4",
+            "value": [
+              0.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap",
+          "bilinear": true
+        }
+      ],
+      "output": "minecraft:main",
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

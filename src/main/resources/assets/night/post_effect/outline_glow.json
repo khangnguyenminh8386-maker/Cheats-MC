@@ -1,0 +1,59 @@
+{
+  "targets": {
+    "blur_h": {},
+    "swap": {}
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "night:program/outline_glow_blur",
+      "inputs": [
+        { "sampler_name": "In", "target": "minecraft:main", "bilinear": true }
+      ],
+      "output": "blur_h",
+      "uniforms": {
+        "OutlineGlowConfig": [
+          { "name": "Params", "type": "vec4", "value": [ 0.5, 15.0, 1.0, 0.0 ] },
+          { "name": "GlowColor", "type": "vec4", "value": [ 1.0, 0.0, 1.0, 1.0 ] }
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "night:program/outline_glow",
+      "inputs": [
+        { "sampler_name": "In", "target": "blur_h", "bilinear": true },
+        { "sampler_name": "Original", "target": "minecraft:main", "bilinear": true },
+        { "sampler_name": "Image", "location": "night:custom_image", "width": 512, "height": 512, "bilinear": true }
+      ],
+      "output": "swap",
+      "uniforms": {
+        "OutlineGlowConfigV": [
+          { "name": "Params", "type": "vec4", "value": [ 0.5, 15.0, 0.0, 1.0 ] },
+          { "name": "GlowColor", "type": "vec4", "value": [ 1.0, 0.0, 1.0, 1.0 ] }
+        ],
+        "EspSettings": [
+          { "name": "Rgb0", "type": "vec4", "value": [ 0.0, 0.0, 0.0, 0.0 ] },
+          { "name": "Rgb1", "type": "vec4", "value": [ 0.0, 0.0, 0.0, 0.0 ] },
+          { "name": "Rgb2", "type": "vec4", "value": [ 0.0, 0.0, 0.0, 0.0 ] },
+          { "name": "Rgb3", "type": "vec4", "value": [ 0.0, 0.0, 0.0, 0.0 ] },
+          { "name": "EspParams", "type": "vec4", "value": [ 0.0, 1.0, 1.0, 0.0 ] },
+          { "name": "Extra", "type": "vec4", "value": [ 1.0, 0.0, 0.0, 0.0 ] }
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [
+        { "sampler_name": "In", "target": "swap", "bilinear": true }
+      ],
+      "output": "minecraft:main",
+      "uniforms": {
+        "BlitConfig": [
+          { "name": "ColorModulate", "type": "vec4", "value": [ 1.0, 1.0, 1.0, 1.0 ] }
+        ]
+      }
+    }
+  ]
+}

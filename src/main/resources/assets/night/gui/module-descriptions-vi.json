@@ -1,0 +1,747 @@
+[
+  {
+    "module": "AntiPhase",
+    "english": "Places a climbable block (Scaffolding, Ladder, Vines) directly at a target enemy's feet.",
+    "vi": "Đặt khối có thể leo (giàn giáo, thang, dây leo) ngay tại chân kẻ địch mục tiêu."
+  },
+  {
+    "module": "AutoArmor",
+    "english": "Automatically equips the best armor.",
+    "vi": "Tự động mặc bộ giáp tốt nhất."
+  },
+  {
+    "module": "AutoBowRelease",
+    "english": "Automatically releases your bow after a certain amount of time has passed.",
+    "vi": "Tự động thả dây cung sau một khoảng thời gian nhất định."
+  },
+  {
+    "module": "AutoCrystal",
+    "english": "Automatically places and attacks crystals to annihilate your opponents.",
+    "vi": "Tự động đặt và đánh crystal để tiêu diệt đối thủ."
+  },
+  {
+    "module": "AutoLog",
+    "english": "Logs out automatically to avoid dying.",
+    "vi": "Tự động thoát máy chủ để tránh chết."
+  },
+  {
+    "module": "AutoMace",
+    "english": "Elytra-boosts above the target, free-falls in, and mace-smashes on repeat.",
+    "vi": "Dùng Elytra tăng độ cao lên trên mục tiêu, rơi tự do xuống và liên tục đập bằng mace."
+  },
+  {
+    "module": "AutoMine",
+    "english": "Manages which blocks SpeedMine should mine to defeat your opponents.",
+    "vi": "Quản lý các khối SpeedMine cần đào để đánh bại đối thủ."
+  },
+  {
+    "module": "AutoPot",
+    "english": "Throws a splash potion under/above you to keep whitelisted potions' effects topped up.",
+    "vi": "Ném thuốc văng xuống dưới hoặc lên trên bạn để duy trì hiệu ứng của các loại thuốc trong danh sách cho phép."
+  },
+  {
+    "module": "AutoTotem",
+    "english": "Automatically puts a specified item in your offhand slot.",
+    "vi": "Tự động đặt vật phẩm chỉ định vào ô tay phụ."
+  },
+  {
+    "module": "AutoTrap",
+    "english": "Automatically places blocks around you to prevent other people from getting inside your hole.",
+    "vi": "Tự động đặt khối quanh bạn để ngăn người khác vào hố của bạn."
+  },
+  {
+    "module": "AutoWeb",
+    "english": "Automatically places webs on other people's feet.",
+    "vi": "Tự động đặt mạng nhện ở chân người khác."
+  },
+  {
+    "module": "BedAura",
+    "english": "Automatically places and detonates beds in the Nether and End.",
+    "vi": "Tự động đặt và kích nổ giường trong Nether và End."
+  },
+  {
+    "module": "Blocker",
+    "english": "Places blocks to stop enemies from placing crystals.",
+    "vi": "Đặt khối để ngăn kẻ địch đặt crystal."
+  },
+  {
+    "module": "CombatPlace",
+    "english": "Automatically places blocks in front of moving targets to block them.",
+    "vi": "Tự động đặt khối trước mục tiêu đang di chuyển để chặn họ."
+  },
+  {
+    "module": "Criticals",
+    "english": "Changes player movement for always landing critical hits.",
+    "vi": "Thay đổi chuyển động của người chơi để luôn đánh chí mạng."
+  },
+  {
+    "module": "HoleFill",
+    "english": "Automatically places blocks inside of holes to prevent others from getting inside of them.",
+    "vi": "Tự động lấp hố bằng khối để ngăn người khác vào hố."
+  },
+  {
+    "module": "KillAura",
+    "english": "Automatically attacks optimal targets using Nami's combat engine.",
+    "vi": "Tự động đánh các mục tiêu tối ưu bằng hệ thống chiến đấu của Nami."
+  },
+  {
+    "module": "KillSay",
+    "english": "Automatically sends a message when you kill someone.",
+    "vi": "Tự động gửi tin nhắn khi bạn giết ai đó."
+  },
+  {
+    "module": "MaceSpoof",
+    "english": "Spoof fall height for mace damage.",
+    "vi": "Giả mạo độ cao rơi để gây sát thương bằng mace."
+  },
+  {
+    "module": "Mainhand",
+    "english": "Automatically manages totems and golden apples in your mainhand.",
+    "vi": "Tự động quản lý totem và táo vàng trong tay chính."
+  },
+  {
+    "module": "ObsidianFarmer",
+    "english": "Places and mines ender chests using SpeedMine.",
+    "vi": "Đặt và đào rương Ender bằng SpeedMine."
+  },
+  {
+    "module": "OpponentScaffold",
+    "english": "Automatically places blocks under non-friended players to prevent them from falling.",
+    "vi": "Tự động đặt khối dưới chân người chơi ngoài danh sách bạn bè để ngăn họ rơi."
+  },
+  {
+    "module": "PearlCatcher",
+    "english": "Places obsidian in the air to stop players pearls from reaching their destination.",
+    "vi": "Đặt obsidian trên không để chặn ngọc Ender của người chơi tới đích."
+  },
+  {
+    "module": "PearlChase",
+    "english": "Automatically throws an Ender Pearl to chase enemy pearl throws with trajectory prediction and obstacle avoidance.",
+    "vi": "Tự động ném ngọc Ender để đuổi theo lần ném ngọc của kẻ địch, có dự đoán quỹ đạo và tránh chướng ngại vật."
+  },
+  {
+    "module": "PistonCrystal",
+    "english": "Places piston + redstone to push a crystal into targets.",
+    "vi": "Đặt piston và redstone để đẩy crystal vào mục tiêu."
+  },
+  {
+    "module": "PistonKick",
+    "english": "Pushes players out of holes or solid blocks using pistons.",
+    "vi": "Dùng piston đẩy người chơi ra khỏi hố hoặc khối đặc."
+  },
+  {
+    "module": "SelfBow",
+    "english": "Automatically shoots arrows at you in order to give yourself potion effects.",
+    "vi": "Tự động bắn tên vào chính bạn để nhận hiệu ứng thuốc."
+  },
+  {
+    "module": "SelfFill",
+    "english": "Automatically places a block in the spot that you were previously in.",
+    "vi": "Tự động đặt khối tại vị trí bạn vừa đứng trước đó."
+  },
+  {
+    "module": "SelfTrap",
+    "english": "Automatically places blocks around you to prevent other people from getting inside your hole.",
+    "vi": "Tự động đặt khối quanh bạn để ngăn người khác vào hố của bạn."
+  },
+  {
+    "module": "SpearKill",
+    "english": "Lunges at players and attacks with a spear/trident.",
+    "vi": "Lao vào người chơi và tấn công bằng giáo hoặc đinh ba."
+  },
+  {
+    "module": "Suicide",
+    "english": "Makes all of the combat modules target you so that you die.",
+    "vi": "Cho tất cả module chiến đấu nhắm vào bạn để bạn chết."
+  },
+  {
+    "module": "Surround",
+    "english": "Automatically places blocks at your feet to prevent crystal damage.",
+    "vi": "Tự động đặt khối ở chân bạn để ngăn sát thương crystal."
+  },
+  {
+    "module": "Capes",
+    "english": "Applies the Cheats MC cape to yourself and to other users.",
+    "vi": "Áp dụng áo choàng Cheats MC cho bạn và những người dùng khác."
+  },
+  {
+    "module": "ClickGui",
+    "english": "Allows you to change and interact with the client's modules and settings through a GUI.",
+    "vi": "Cho phép chỉnh và sử dụng các module, cài đặt của client qua giao diện GUI."
+  },
+  {
+    "module": "Color",
+    "english": "Manages the client's global color system.",
+    "vi": "Quản lý hệ thống màu chung của client."
+  },
+  {
+    "module": "Commands",
+    "english": "Manages the client's command and chat message system.",
+    "vi": "Quản lý hệ thống lệnh và tin nhắn chat của client."
+  },
+  {
+    "module": "Font",
+    "english": "Manages the client and the game's font rendering.",
+    "vi": "Quản lý việc hiển thị phông chữ của client và trò chơi."
+  },
+  {
+    "module": "Friend",
+    "english": "Allows you to manage the client's friend system.",
+    "vi": "Cho phép quản lý hệ thống bạn bè của client."
+  },
+  {
+    "module": "HUDEditor",
+    "english": "Lets you drag-and-drop and toggle individual HUD elements directly on screen.",
+    "vi": "Cho phép kéo thả và bật/tắt từng thành phần HUD trực tiếp trên màn hình."
+  },
+  {
+    "module": "HUD",
+    "english": "Renders information about the game and the client on the screen.",
+    "vi": "Hiển thị thông tin về trò chơi và client trên màn hình."
+  },
+  {
+    "module": "IgnoreNaked",
+    "english": "Ignore Naked, even that player wears elytra only",
+    "vi": "Bỏ qua người chơi không mặc giáp, kể cả khi họ chỉ đeo Elytra."
+  },
+  {
+    "module": "IRC",
+    "english": "Internet Relay Chat with other Cheats MC users.",
+    "vi": "Chat IRC với những người dùng Cheats MC khác."
+  },
+  {
+    "module": "Menu",
+    "english": "Replaces the default title screen with the client's custom main menu screen.",
+    "vi": "Thay màn hình tiêu đề mặc định bằng menu chính riêng của client."
+  },
+  {
+    "module": "NoMiddleClick",
+    "english": "Prevents middle clicking from picking blocks into your hand.",
+    "vi": "Ngăn thao tác nhấn chuột giữa lấy khối vào tay."
+  },
+  {
+    "module": "Patch",
+    "english": "Server/anticheat-specific hotfixes.",
+    "vi": "Các bản sửa nhanh dành riêng cho từng máy chủ hoặc anticheat."
+  },
+  {
+    "module": "PingBypass",
+    "english": "Connects to a PingBypass proxy server for low-latency combat.",
+    "vi": "Kết nối tới máy chủ proxy PingBypass để chiến đấu với độ trễ thấp."
+  },
+  {
+    "module": "Renders",
+    "english": "Manages the client world renders.",
+    "vi": "Quản lý việc hiển thị thế giới của client."
+  },
+  {
+    "module": "Rotations",
+    "english": "Manages the client's rotation system.",
+    "vi": "Quản lý hệ thống rotation của client."
+  },
+  {
+    "module": "RPC",
+    "english": "Enables Discord Rich Presence for the client.",
+    "vi": "Bật Discord Rich Presence cho client."
+  },
+  {
+    "module": "Announcer",
+    "english": "Announces your actions in chat.",
+    "vi": "Thông báo các hành động của bạn trong chat."
+  },
+  {
+    "module": "AutoEscape",
+    "english": "Eats a chorus fruit to escape as soon as you get trapped on all sides.",
+    "vi": "Ăn quả chorus để thoát ngay khi bạn bị vây kín mọi phía."
+  },
+  {
+    "module": "AutoLogin",
+    "english": "Automatically logs in on cracked servers.",
+    "vi": "Tự động đăng nhập trên máy chủ cracked."
+  },
+  {
+    "module": "AutoReconnect",
+    "english": "Automatically reconnects you to a server after a specified time period.",
+    "vi": "Tự động kết nối lại máy chủ sau khoảng thời gian chỉ định."
+  },
+  {
+    "module": "AutoRespawn",
+    "english": "Makes it so that you respawn immediately after dying.",
+    "vi": "Hồi sinh ngay sau khi chết."
+  },
+  {
+    "module": "BetterChat",
+    "english": "Improves the default minecraft chat.",
+    "vi": "Cải thiện chat mặc định của Minecraft."
+  },
+  {
+    "module": "ExtraTab",
+    "english": "Extends the size of the player list.",
+    "vi": "Mở rộng kích thước danh sách người chơi."
+  },
+  {
+    "module": "FakePlayer",
+    "english": "Spawns in a fake player entity that you can use to test modules on.",
+    "vi": "Tạo một thực thể người chơi giả để thử các module."
+  },
+  {
+    "module": "FastLatency",
+    "english": "Makes ping resolving much faster.",
+    "vi": "Tăng tốc việc xác định ping."
+  },
+  {
+    "module": "FOVModifier",
+    "english": "Gives you more customizability for the games FOV.",
+    "vi": "Cho phép tùy chỉnh FOV của trò chơi nhiều hơn."
+  },
+  {
+    "module": "Handshake",
+    "english": "Spoofs your client handshake to make the server think that you are playing on a different client.",
+    "vi": "Giả mạo handshake của client để máy chủ tưởng bạn đang dùng client khác."
+  },
+  {
+    "module": "LagNotify",
+    "english": "Notifies you when you lag.",
+    "vi": "Thông báo khi bạn bị lag."
+  },
+  {
+    "module": "MouseFix",
+    "english": "Fixes multiple mouse issues.",
+    "vi": "Sửa nhiều vấn đề về chuột."
+  },
+  {
+    "module": "NoPacketKick",
+    "english": "Prevents you from being kicked from the server due to Netty, packet decoding, or codec exceptions.",
+    "vi": "Ngăn bạn bị máy chủ kick do lỗi Netty, giải mã packet hoặc codec."
+  },
+  {
+    "module": "NoSoundLag",
+    "english": "Prevents lagging caused by a large amount of sounds being played.",
+    "vi": "Ngăn lag do quá nhiều âm thanh phát cùng lúc."
+  },
+  {
+    "module": "Notifications",
+    "english": "Notifies you in chat whenever something significant happens.",
+    "vi": "Thông báo trong chat khi có sự kiện đáng chú ý."
+  },
+  {
+    "module": "Scaffold",
+    "english": "Places blocks under the player to bridge automatically.",
+    "vi": "Đặt khối dưới chân người chơi để tự động bắc cầu."
+  },
+  {
+    "module": "Screenshot",
+    "english": "Automatically copies screenshots to clipboard when pressing F2.",
+    "vi": "Tự động sao chép ảnh chụp màn hình vào clipboard khi nhấn F2."
+  },
+  {
+    "module": "ShulkerInfo",
+    "english": "Renders a preview of the contents of the shulker you are hovering.",
+    "vi": "Hiển thị trước đồ trong hộp shulker mà bạn đang rê chuột lên."
+  },
+  {
+    "module": "Sounds",
+    "english": "Plays custom sounds when something happens. Put .wav files in .minecraft/Cheats MC/Client/",
+    "vi": "Phát âm thanh tùy chỉnh khi có sự kiện. Đặt tệp .wav trong .minecraft/Cheats MC/Client/"
+  },
+  {
+    "module": "Spammer",
+    "english": "Spams messages in chat from a text file.",
+    "vi": "Spam tin nhắn trong chat từ một tệp văn bản."
+  },
+  {
+    "module": "Welcomer",
+    "english": "Sends a message when a player joins or leaves the server.",
+    "vi": "Gửi tin nhắn khi người chơi vào hoặc rời máy chủ."
+  },
+  {
+    "module": "AirStuck",
+    "english": "Suspends movement in the air by freezing movement packets.",
+    "vi": "Giữ bạn đứng yên trên không bằng cách đóng băng packet di chuyển."
+  },
+  {
+    "module": "Anchor",
+    "english": "Pulls you toward your nearest hole when looking down.",
+    "vi": "Kéo bạn về hố gần nhất khi nhìn xuống."
+  },
+  {
+    "module": "AntiVoid",
+    "english": "Prevents you from falling into the void.",
+    "vi": "Ngăn bạn rơi xuống void."
+  },
+  {
+    "module": "ArrowControls",
+    "english": "Allows you to control the camera using your arrow keys.",
+    "vi": "Cho phép điều khiển camera bằng các phím mũi tên."
+  },
+  {
+    "module": "AutoWalk",
+    "english": "Holds forward (or backward) movement every tick. Auto-pauses while Baritone is actively driving movement (e.g. EBounce+'s ObstaclePassing) so the two don't fight over input.",
+    "vi": "Giữ di chuyển tiến hoặc lùi mỗi tick. Tự tạm dừng khi Baritone đang điều khiển di chuyển (ví dụ ObstaclePassing của EBounce+) để tránh xung đột điều khiển."
+  },
+  {
+    "module": "BounceDebug",
+    "english": "Prints ElytraFly Bounce speed/recast diagnostics to chat -- toggle independently of ElytraFly's own settings.",
+    "vi": "In thông tin chẩn đoán tốc độ và recast của ElytraFly Bounce vào chat; bật/tắt độc lập với cài đặt của ElytraFly."
+  },
+  {
+    "module": "ElytraFly",
+    "english": "Allows you to fly using an elytra without fireworks.",
+    "vi": "Cho phép bay bằng Elytra mà không cần pháo hoa."
+  },
+  {
+    "module": "EntityControl",
+    "english": "Allows you to control and fly with ridden entities.",
+    "vi": "Cho phép điều khiển và bay cùng thực thể đang cưỡi."
+  },
+  {
+    "module": "FakeLag",
+    "english": "Chokes sent packets to look like you are lagging.",
+    "vi": "Giữ lại packet gửi đi để trông như bạn đang lag."
+  },
+  {
+    "module": "FastClimb",
+    "english": "Modifies your climbing speed on ladders, scaffolding, vines and other climbables.",
+    "vi": "Chỉnh tốc độ leo thang, giàn giáo, dây leo và các khối có thể leo khác."
+  },
+  {
+    "module": "FastSwim",
+    "english": "Modifies your swim speed in water and lava.",
+    "vi": "Chỉnh tốc độ bơi trong nước và dung nham."
+  },
+  {
+    "module": "FastWeb",
+    "english": "Allows you to move quickly through webs.",
+    "vi": "Cho phép di chuyển nhanh qua mạng nhện."
+  },
+  {
+    "module": "HighJump",
+    "english": "Alek Grim Shulker HighJump.",
+    "vi": "Nhảy cao kiểu Alek Grim Shulker."
+  },
+  {
+    "module": "HitboxDesync",
+    "english": "Precisely offsets your position to glitch out Minecraft hitbox calculations.",
+    "vi": "Dịch vị trí của bạn một cách chính xác để gây lỗi tính toán hitbox của Minecraft."
+  },
+  {
+    "module": "HoleSnap",
+    "english": "Pulls you toward your nearest hole.",
+    "vi": "Kéo bạn về hố gần nhất."
+  },
+  {
+    "module": "InventoryControl",
+    "english": "Allows you to control things such as movement and your camera while a GUI is open.",
+    "vi": "Cho phép điều khiển các thao tác như di chuyển và camera khi GUI đang mở."
+  },
+  {
+    "module": "NoFall",
+    "english": "Prevents you from taking fall damage.",
+    "vi": "Ngăn sát thương do rơi."
+  },
+  {
+    "module": "NoJumpDelay",
+    "english": "Removes the delay that slows down your jumping.",
+    "vi": "Loại bỏ độ trễ làm chậm việc nhảy."
+  },
+  {
+    "module": "NoSlow",
+    "english": "Removes the slowness effect that you receive when doing certain actions.",
+    "vi": "Loại bỏ hiệu ứng làm chậm bạn nhận được khi thực hiện một số hành động."
+  },
+  {
+    "module": "Phase",
+    "english": "Throws an ender pearl to phase into blocks. KingMC Crawl mode requires crawling away from the target block before throwing.",
+    "vi": "Ném ngọc Ender để chui vào khối. Chế độ KingMC Crawl yêu cầu bò ra xa khối mục tiêu trước khi ném."
+  },
+  {
+    "module": "ReverseStep",
+    "english": "Makes it so that you fall down instantly at a specified height.",
+    "vi": "Cho phép rơi xuống ngay lập tức ở độ cao chỉ định."
+  },
+  {
+    "module": "Speed",
+    "english": "Makes it so that you move faster than normal.",
+    "vi": "Cho phép di chuyển nhanh hơn bình thường."
+  },
+  {
+    "module": "Sprint",
+    "english": "Makes it so that you are always sprinting when possible.",
+    "vi": "Luôn chạy nước rút khi có thể."
+  },
+  {
+    "module": "Step",
+    "english": "Gives you the ability to instantly climb over a customizable amount of blocks.",
+    "vi": "Cho phép bước lên ngay lập tức qua số khối có thể tùy chỉnh."
+  },
+  {
+    "module": "TickShift",
+    "english": "Manipulates minecraft timer to give you a small speed boost.",
+    "vi": "Điều chỉnh timer của Minecraft để tăng nhẹ tốc độ."
+  },
+  {
+    "module": "Velocity",
+    "english": "Modifies the amount of knockback that you receive.",
+    "vi": "Chỉnh mức knockback bạn nhận được."
+  },
+  {
+    "module": "AirPlace",
+    "english": "Lets you place blocks in the air in servers that allow it.",
+    "vi": "Cho phép đặt khối trên không ở máy chủ cho phép thao tác này."
+  },
+  {
+    "module": "AntiHunger",
+    "english": "Reduces the amount of hunger consumption.",
+    "vi": "Giảm mức tiêu hao thanh đói."
+  },
+  {
+    "module": "AutoShop",
+    "english": "Automates the server /shop GUI to buy totems, end crystals, or exp bottles.",
+    "vi": "Tự động thao tác GUI /shop của máy chủ để mua totem, End crystal hoặc chai kinh nghiệm."
+  },
+  {
+    "module": "ChestStealer",
+    "english": "Automatically steals, dumps, or drops items to and from an open container.",
+    "vi": "Tự động lấy, chuyển hoặc vứt vật phẩm vào/ra khỏi kho chứa đang mở."
+  },
+  {
+    "module": "FastPlace",
+    "english": "Allows you to customize the tick delay between using items.",
+    "vi": "Cho phép chỉnh độ trễ tính bằng tick giữa các lần dùng vật phẩm."
+  },
+  {
+    "module": "InventoryCleaner",
+    "english": "Auto-drops unwanted items from your inventory each tick.",
+    "vi": "Tự động vứt vật phẩm không cần thiết khỏi túi đồ mỗi tick."
+  },
+  {
+    "module": "InventorySorter",
+    "english": "Auto-sorts your inventory into the active Rekit kit's layout.",
+    "vi": "Tự động sắp xếp túi đồ theo bố cục kit Rekit đang dùng."
+  },
+  {
+    "module": "KeyAction",
+    "english": "Keybinds for throwing fireworks, pearls and experience bottles.",
+    "vi": "Phím tắt để dùng pháo hoa, ném ngọc Ender và chai kinh nghiệm."
+  },
+  {
+    "module": "MultiTask",
+    "english": "Allows you to interact with blocks while eating or using an item.",
+    "vi": "Cho phép tương tác với khối khi đang ăn hoặc dùng vật phẩm."
+  },
+  {
+    "module": "NoBreakDelay",
+    "english": "Allows you to customize the delay between breaking blocks.",
+    "vi": "Cho phép chỉnh độ trễ giữa các lần phá khối."
+  },
+  {
+    "module": "NoEntityTrace",
+    "english": "Allows you to interact with blocks, bypassing the entities between you and the block.",
+    "vi": "Cho phép tương tác với khối, bỏ qua thực thể nằm giữa bạn và khối đó."
+  },
+  {
+    "module": "NoInteract",
+    "english": "Prevents you from interacting with right-clickable blocks.",
+    "vi": "Ngăn bạn tương tác với các khối có thể nhấn chuột phải."
+  },
+  {
+    "module": "NoRotate",
+    "english": "Prevents the server from forcing rotations on you.",
+    "vi": "Ngăn máy chủ ép thay đổi rotation của bạn."
+  },
+  {
+    "module": "Reach",
+    "english": "Allows you to modify the distance at which you can interact with blocks.",
+    "vi": "Cho phép chỉnh khoảng cách tương tác với khối."
+  },
+  {
+    "module": "Rekit",
+    "english": "Automatically regears from an ender chest shulker using a saved kit.",
+    "vi": "Tự động bổ sung trang bị từ hộp shulker trong rương Ender theo kit đã lưu."
+  },
+  {
+    "module": "Replenish",
+    "english": "Automatically replenishes stacks in your hotbar with new ones when they meet a specified threshold.",
+    "vi": "Tự động bổ sung các chồng vật phẩm trên hotbar bằng chồng mới khi đạt ngưỡng chỉ định."
+  },
+  {
+    "module": "RotationLock",
+    "english": "Locks your rotation to a certain yaw and pitch.",
+    "vi": "Khóa rotation ở góc yaw và pitch nhất định."
+  },
+  {
+    "module": "SpeedMine",
+    "english": "Automatically mines blocks at a faster speed using packets.",
+    "vi": "Tự động đào khối nhanh hơn bằng packet."
+  },
+  {
+    "module": "Swing",
+    "english": "Allows you to modify the swing animation and the hand that will be used for swinging.",
+    "vi": "Cho phép chỉnh hoạt ảnh vung tay và tay dùng để vung."
+  },
+  {
+    "module": "ThrowItem",
+    "english": "Throw out items that arent belong to your loaded kit. Useful when you need to loot gears during combat",
+    "vi": "Vứt vật phẩm không thuộc kit đã tải. Hữu ích khi cần nhặt trang bị trong chiến đấu."
+  },
+  {
+    "module": "Timer",
+    "english": "Makes your game run at a faster tick speed.",
+    "vi": "Cho trò chơi chạy với tốc độ tick nhanh hơn."
+  },
+  {
+    "module": "XCarry",
+    "english": "Allows you to carry items in your crafting slots.",
+    "vi": "Cho phép chứa vật phẩm trong các ô chế tạo."
+  },
+  {
+    "module": "Ambience",
+    "english": "Modifies the world ambient lighting and atmosphere color.",
+    "vi": "Chỉnh ánh sáng môi trường và màu không khí trong thế giới."
+  },
+  {
+    "module": "ArrowTracers",
+    "english": "Renders arrows towards players who are off screen.",
+    "vi": "Hiển thị mũi tên hướng tới người chơi ngoài màn hình."
+  },
+  {
+    "module": "AspectRatio",
+    "english": "Modifies the game's aspect ratio.",
+    "vi": "Chỉnh tỷ lệ khung hình của trò chơi."
+  },
+  {
+    "module": "Atmosphere",
+    "english": "Modifies the world's atmosphere, such as time and color.",
+    "vi": "Chỉnh bầu không khí của thế giới, như thời gian và màu sắc."
+  },
+  {
+    "module": "BlockHighlight",
+    "english": "Replaces the default Minecraft block highlight with a more customizable one.",
+    "vi": "Thay đánh dấu khối mặc định của Minecraft bằng kiểu có nhiều tùy chỉnh hơn."
+  },
+  {
+    "module": "BreakHighlight",
+    "english": "Renders blocks that are being mined by other players.",
+    "vi": "Hiển thị các khối đang bị người chơi khác đào."
+  },
+  {
+    "module": "Chams",
+    "english": "Adds a customizable render on top of the default Minecraft rendering.",
+    "vi": "Thêm lớp hiển thị tùy chỉnh lên phần hiển thị mặc định của Minecraft."
+  },
+  {
+    "module": "ChestScan",
+    "english": "Highlights opened chests by contents (empty/partial/full), with optional hopper-chain inference.",
+    "vi": "Đánh dấu rương đã mở theo lượng đồ (trống/có một phần/đầy), tùy chọn suy luận qua chuỗi hopper."
+  },
+  {
+    "module": "DeathEffects",
+    "english": "Renders certain effects on players when they die or disconnect.",
+    "vi": "Hiển thị một số hiệu ứng trên người chơi khi họ chết hoặc ngắt kết nối."
+  },
+  {
+    "module": "ESP",
+    "english": "Renders a box ESP around entities that you have selected.",
+    "vi": "Hiển thị khung ESP quanh các thực thể đã chọn."
+  },
+  {
+    "module": "Freecam",
+    "english": "Allows you to move your camera anywhere you want without restriction.",
+    "vi": "Cho phép di chuyển camera tới bất cứ đâu không bị giới hạn."
+  },
+  {
+    "module": "FullBright",
+    "english": "Gives you the ability to clearly see even when in the dark.",
+    "vi": "Cho phép nhìn rõ ngay cả trong bóng tối."
+  },
+  {
+    "module": "HoleESP",
+    "english": "Highlights all holes in a specified radius.",
+    "vi": "Đánh dấu mọi hố trong bán kính chỉ định."
+  },
+  {
+    "module": "Icons",
+    "english": "Renders icons for specific events.",
+    "vi": "Hiển thị biểu tượng cho các sự kiện cụ thể."
+  },
+  {
+    "module": "LogoutSpot",
+    "english": "Renders a frozen chams model and nametag where players logged out.",
+    "vi": "Hiển thị mô hình chams đứng yên và bảng tên tại nơi người chơi thoát máy chủ."
+  },
+  {
+    "module": "MotionCamera",
+    "english": "Smooths camera movement and adds smooth perspective transitions.",
+    "vi": "Làm mượt chuyển động camera và chuyển đổi góc nhìn."
+  },
+  {
+    "module": "NameTags",
+    "english": "Replaces the default Minecraft NameTag with a more visible and customizable one.",
+    "vi": "Thay bảng tên mặc định của Minecraft bằng kiểu dễ nhìn và có nhiều tùy chỉnh hơn."
+  },
+  {
+    "module": "NoRender",
+    "english": "Disables the rendering of certain things.",
+    "vi": "Tắt hiển thị một số thứ."
+  },
+  {
+    "module": "Particles",
+    "english": "Custom particle effects for totem pops and entity hits.",
+    "vi": "Hiệu ứng hạt tùy chỉnh khi totem kích hoạt hoặc thực thể bị đánh."
+  },
+  {
+    "module": "PhaseESP",
+    "english": "Renders ESP on blocks which have a safe base.",
+    "vi": "Hiển thị ESP trên các khối có nền an toàn."
+  },
+  {
+    "module": "PopChams",
+    "english": "Renders chams on a frozen snapshot of the entity's pose the moment they pop a totem.",
+    "vi": "Hiển thị chams giữ nguyên tư thế của thực thể tại thời điểm totem kích hoạt."
+  },
+  {
+    "module": "Shaders",
+    "english": "Overlays specified entities with a customizable shader.",
+    "vi": "Phủ shader tùy chỉnh lên các thực thể chỉ định."
+  },
+  {
+    "module": "StashFinder",
+    "english": "Scans loaded chunks for loot stashes and storage animals, alerting via chat and Discord webhook.",
+    "vi": "Quét các chunk đã tải để tìm kho đồ và động vật mang đồ, báo qua chat và Discord webhook."
+  },
+  {
+    "module": "TextESP",
+    "english": "Renders text ESP on the world.",
+    "vi": "Hiển thị ESP dạng chữ trong thế giới."
+  },
+  {
+    "module": "Tracers",
+    "english": "Renders a line showing where other players are located.",
+    "vi": "Hiển thị đường chỉ vị trí của người chơi khác."
+  },
+  {
+    "module": "Trails",
+    "english": "Renders smooth trails behind projectiles and throwables.",
+    "vi": "Hiển thị vệt mượt phía sau các vật thể bắn và ném."
+  },
+  {
+    "module": "Trajectories",
+    "english": "Draws a predicted trajectory of where throwables will end up when you throw them.",
+    "vi": "Vẽ quỹ đạo dự đoán điểm đến của vật phẩm khi bạn ném."
+  },
+  {
+    "module": "ViewClip",
+    "english": "Makes your camera clip through walls and allows you to change the camera's distance from yourself.",
+    "vi": "Cho camera xuyên tường và chỉnh khoảng cách camera tới bạn."
+  },
+  {
+    "module": "ViewModel",
+    "english": "Modifies the position, scale and rotation of the player viewmodel.",
+    "vi": "Chỉnh vị trí, kích thước và rotation của mô hình hiển thị trước mắt người chơi."
+  },
+  {
+    "module": "VoidESP",
+    "english": "Highlights any non-bedrock blocks that can drop you into the void.",
+    "vi": "Đánh dấu các khối không phải bedrock có thể khiến bạn rơi xuống void."
+  }
+]

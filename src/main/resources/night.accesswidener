@@ -1,0 +1,25 @@
+accessWidener v2 official
+# ---------------------------------------------------------------------------
+# PORT NOTE (1.21.4 Yarn -> 26.1.2 Mojmap):
+# Minecraft 26.x is unobfuscated, so Loom processes in the "official"
+# namespace, which now carries Mojang's official class names. The original Yarn-named entries
+# are preserved below (commented) and are being re-translated against the
+# decompiled 26.1.2 sources. Entries are re-enabled one subsystem at a time as
+# the corresponding source files are migrated.
+#
+# Original 1.21.4 (Yarn) entries:
+#   accessible class net/minecraft/client/render/BackgroundRenderer$StatusEffectFogModifier
+#   accessible class net/minecraft/client/render/OutlineVertexConsumerProvider$OutlineVertexConsumer
+#   accessible class net/minecraft/client/render/item/HeldItemRenderer$HandRenderType
+#   accessible class net/minecraft/network/NetworkStateBuilder$PacketType
+#   accessible field net/minecraft/network/ClientConnection channel Lio/netty/channel/Channel;
+#   accessible field net/minecraft/network/ClientConnection packetListener Lnet/minecraft/network/listener/PacketListener;
+#   accessible field net/minecraft/network/ClientConnection prePlayStateListener Lnet/minecraft/network/listener/PacketListener;
+#   accessible field net/minecraft/network/ClientConnection duringLogin Z
+#   accessible method net/minecraft/registry/tag/TagPacketSerializer$Serialized <init> (Ljava/util/Map;)V
+#   accessible class net/minecraft/registry/RegistryLoader$Loader
+#   accessible field net/minecraft/network/packet/s2c/play/PlayerListS2CPacket entries Ljava/util/List;
+#   mutable field net/minecraft/network/packet/s2c/play/PlayerListS2CPacket entries Ljava/util/List;
+#   accessible field net/minecraft/network/packet/s2c/play/PlayerListS2CPacket actions Ljava/util/EnumSet;
+#   mutable field net/minecraft/network/packet/s2c/play/PlayerListS2CPacket actions Ljava/util/EnumSet;
+# ---------------------------------------------------------------------------

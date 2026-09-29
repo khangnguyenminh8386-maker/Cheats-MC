@@ -1,0 +1,30 @@
+Summary for /home/claude/night_client/Night_Client__1_.jar
+Decompiled with CFR 0.152
+
+
+night.mixins.EntityRendererMixin
+----------------------------
+
+night$chams(T S float org.spongepowered.asm.mixin.injection.callback.CallbackInfo )
+  Unable to fully structure code
+
+
+night.modules.impl.combat.AutoCrystalModule
+----------------------------
+
+losDebug()
+  Unable to fully structure code
+
+
+night.modules.impl.combat.PistonCrystalModule
+----------------------------
+
+onTick(night.events.impl.TickEvent )
+  Unable to fully structure code
+
+
+night.utils.graphics.Renderer3D
+----------------------------
+
+draw(net.minecraft.client.renderer.rendertype.RenderType com.mojang.blaze3d.vertex.MeshData )
+  Loose catch block

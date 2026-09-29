@@ -1,0 +1,20 @@
+{
+  "targets": {
+    "menu_bg_target": { "persistent": true }
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "night:program/menu_bg",
+      "inputs": [
+        { "sampler_name": "In", "target": "minecraft:main", "bilinear": true }
+      ],
+      "output": "menu_bg_target",
+      "uniforms": {
+        "MenuBgConfig": [
+          { "name": "Params", "type": "vec4", "value": [ 0.0, 1.0, 0.0, 0.0 ] }
+        ]
+      }
+    }
+  ]
+}

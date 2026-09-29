@@ -1,0 +1,15 @@
+{
+  "vertex": "night:program/sky/screen_blit",
+  "fragment": "night:program/sky/sky_shader",
+
+  "attributes": [
+    "Position"
+  ],
+
+  "uniforms": [
+    { "name": "u_Time",      "type": "float", "count": 1, "values": [0.0] },
+    { "name": "u_Intensity", "type": "float", "count": 1, "values": [1.0] },
+    { "name": "u_Resolution","type": "float", "count": 2, "values": [1920.0, 1080.0] },
+    { "name": "u_Tint",      "type": "float", "count": 3, "values": [1.0, 1.0, 1.0] }
+  ]
+}

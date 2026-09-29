@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "night",
+	"version": "v26",
+	"name": "Cheats MC",
+	"description": "Cheats MC is a Minecraft utility mod aimed at anarchy servers, giving you useful features for combat and utility.",
+	"authors": [
+		"thonsanlo",
+		"HumanBeing",
+		"EU (thanks for the base)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/night/icon.png",
+	"environment": "*",
+	"accessWidener": "night.accesswidener",
+	"entrypoints": {
+		"main": [
+			"night.Night",
+			"cheatsmc.CommunityLinks"
+		]
+	},
+	"mixins": [
+		"night.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

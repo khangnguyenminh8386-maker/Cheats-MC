@@ -1,0 +1,44 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+group = 'night'
+version = '26.2-R1-cheats-mc.1'
+
+repositories { mavenCentral() }
+
+loom {
+    accessWidenerPath = file('src/main/resources/night.accesswidener')
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+    // Generated members already exist. Processor only restores the constructor's
+    // missing checked-exception rethrow via @SneakyThrows; no runtime Lombok dependency.
+    compileOnly 'org.projectlombok:lombok:1.18.42'
+    annotationProcessor 'org.projectlombok:lombok:1.18.42'
+    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+}
+dependencyLocking { lockAllConfigurations() }
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(25) }
+}
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-Xmaxerrs', '2000']
+}
+tasks.named('jar') {
+    archiveFileName = 'Cheats-MC-26.2-R1.jar'
+    manifest { attributes 'Class-Path': 'discord-ipc-1.1.jar' }
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+tasks.register('writeCompileClasspath') {
+    doLast {
+        file('.tools/compile-classpath.txt').text = sourceSets.main.compileClasspath.files.collect { it.absolutePath }.join('\n')
+    }
+}

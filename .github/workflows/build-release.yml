@@ -1,0 +1,35 @@
+name: Build and release
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - uses: gradle/actions/wrapper-validation@v4
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Build JAR
+        run: .\gradlew.bat clean build --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Cheats-MC-26.2-R1
+          path: build/libs/Cheats-MC-26.2-R1.jar
+      - name: Publish GitHub release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: pwsh
+        run: |
+          gh release create $env:GITHUB_REF_NAME build/libs/Cheats-MC-26.2-R1.jar --title "Cheats MC $env:GITHUB_REF_NAME" --notes "Minecraft 26.2 Fabric build from the published source. Requires Fabric API and Java 25. Discord RPC art still uses the original application's remote assets."

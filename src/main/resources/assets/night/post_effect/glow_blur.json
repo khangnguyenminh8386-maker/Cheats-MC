@@ -1,0 +1,20 @@
+﻿{
+  "targets": {
+    "swap": { "persistent": true }
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "night:program/glow_blur",
+      "inputs": [
+        { "sampler_name": "In", "target": "minecraft:main", "bilinear": true }
+      ],
+      "output": "swap",
+      "uniforms": {
+        "GlowConfig": [
+          { "name": "GlowColor", "type": "vec4", "value": [ 1.0, 0.63, 0.3, 1.0 ] }
+        ]
+      }
+    }
+  ]
+}
